@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: '%s',
   },
   icons: {
-    icon: '/favicon.png',
+    icon: '/favicon.webp',
   },
   description:
     "Daniyal Master's Portfolio. Building slick software—without the bugs. Hopefully.",
@@ -44,7 +44,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <link rel="preload" as="image" href="/SuperCorners.png" />
+      <link rel="preload" as="image" href="/SuperCorners.webp" />
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
