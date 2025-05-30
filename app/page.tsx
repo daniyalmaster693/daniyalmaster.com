@@ -57,7 +57,7 @@ export default function Personal() {
               <div className="relative rounded-2xl bg-zinc-50/40 p-1 dark:bg-zinc-950/40 dark:ring-zinc-800/50">
                 <img
                   src={project.image}
-                  alt="Daniyal"
+                  alt={project.name}
                   className="aspect-video w-full rounded-2xl object-cover object-center"
                 />
               </div>
