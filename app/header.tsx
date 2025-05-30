@@ -8,7 +8,7 @@ export function Header() {
       <Link href="/" className="font-medium text-black dark:text-white">
         <div className="flex items-center space-x-4">
           <img
-            src="/Daniyal.jpg"
+            src="/Daniyal.webp"
             alt="Daniyal"
             className="mr-5 h-14 w-14 rounded-full object-cover"
           />
