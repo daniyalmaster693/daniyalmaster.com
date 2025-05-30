@@ -136,7 +136,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -150,7 +150,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -164,7 +164,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -178,7 +178,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -192,7 +192,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -206,7 +206,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -220,7 +220,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
@@ -234,7 +234,7 @@ export default function Personal() {
               width="1em"
               height="1em"
               viewBox="0 0 24 24"
-              className="mr-11 size-14 md:max-lg:size-8"
+              className="mr-11 size-12 md:max-lg:size-8"
             >
               <path
                 fill="currentColor"
