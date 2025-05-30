@@ -58,6 +58,7 @@ export default function Personal() {
                 <img
                   src={project.image}
                   alt={project.name}
+                  loading="eager"
                   className="aspect-video w-full rounded-2xl object-cover object-center"
                 />
               </div>
