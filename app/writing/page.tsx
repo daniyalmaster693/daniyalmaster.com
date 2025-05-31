@@ -2,9 +2,7 @@
 import { motion } from 'motion/react'
 import Link from 'next/link'
 import { AnimatedBackground } from '@/components/ui/animated-background'
-import { PROJECTS, BLOG_POSTS, EMAIL } from '../data'
-import GitHubCalendar from 'react-github-calendar'
-import Marquee from 'react-fast-marquee'
+import { BLOG_POSTS } from '../data'
 
 const VARIANTS_CONTAINER = {
   hidden: { opacity: 0 },
@@ -39,8 +37,11 @@ export default function Personal() {
             className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
             href="/"
           >
-            <p className="text-zinc-200 dark:text-zinc-200">← Home</p>
-            <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+            <p className="text-zinc-900 dark:text-zinc-200">← Home</p>
+            <span
+              className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 transition-all duration-200 group-hover:max-w-full"
+              style={{ backgroundColor: '#A88BFA', height: '2px' }}
+            ></span>
           </a>
 
           <p className="mt-5 text-zinc-600 dark:text-zinc-400">

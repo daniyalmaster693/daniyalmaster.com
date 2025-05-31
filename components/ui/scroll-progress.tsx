@@ -36,6 +36,7 @@ export function ScrollProgress({
       className={cn('inset-x-0 top-0 h-1 origin-left', className)}
       style={{
         scaleX,
+        backgroundColor: '#A88BFA',
       }}
     />
   )

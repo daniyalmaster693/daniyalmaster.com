@@ -68,7 +68,10 @@ export default function Personal() {
                   target="_blank"
                 >
                   {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+                  <span
+                    className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 transition-all duration-200 group-hover:max-w-full"
+                    style={{ backgroundColor: '#A88BFA', height: '2px' }}
+                  ></span>
                 </a>
                 <p className="text-base text-zinc-600 dark:text-zinc-400">
                   {project.description}
@@ -88,7 +91,10 @@ export default function Personal() {
           href="/writing"
         >
           <h3 className="text-lg font-medium">Selected Posts</h3>
-          <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+          <span
+            className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 transition-all duration-200 group-hover:max-w-full"
+            style={{ backgroundColor: '#A88BFA', height: '2px' }}
+          ></span>
         </a>
 
         <div className="mt-3 flex flex-col space-y-0">

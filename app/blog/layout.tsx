@@ -53,9 +53,12 @@ export default function LayoutBlogPost({
             className="group inline-block font-[450] text-zinc-900 no-underline dark:text-zinc-50"
             href="/writing"
           >
-            <span className="relative text-zinc-200 dark:text-zinc-200">
+            <span className="relative text-zinc-900 dark:text-zinc-200">
               ← View all posts
-              <span className="absolute bottom-0 left-0 block h-[1px] w-full max-w-0 bg-zinc-200 transition-all duration-200 group-hover:max-w-full"></span>
+              <span
+                className="absolute bottom-0 left-0 block h-[1px] w-full max-w-0 transition-all duration-200 group-hover:max-w-full"
+                style={{ backgroundColor: '#A88BFA', height: '2px' }}
+              ></span>
             </span>
           </a>
         </div>
