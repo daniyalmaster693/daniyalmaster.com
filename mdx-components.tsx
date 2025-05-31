@@ -25,7 +25,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     },
     Published: ({ date }: { date: string }) => (
       <div className="flex-1">
-        <p className="mt-7 text-right text-zinc-600 dark:text-zinc-400">
+        <p className="font-base mt-7 gap-1 text-right text-sm text-zinc-500 transition-colors dark:text-zinc-400">
           Published: {date}
         </p>
       </div>
