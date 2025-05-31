@@ -1,0 +1,57 @@
+export const metadata = {
+  title: 'Running AI Locally with Raycast & Ollama',
+  description:
+    'How I set up Raycast to use local LLMs through Ollama for fast, private AI on my Mac.',
+  authors: [{ name: 'Daniyal Master' }],
+  openGraph: {
+    images: ['../Raycast 2025-05-31 at 12.46.35.webp'],
+  },
+}
+
+<Cover
+  src="../Raycast 2025-05-31 at 12.46.35.webp"
+  alt="Raycast Quick AI Screenshot"
+/>
+
+# Running AI Locally with Raycast & Ollama
+
+How I set up Raycast to use local LLMs through Ollama for fast, private AI on my Mac.
+
+## Integration with Raycast AI
+
+In [v1.99.0](https://www.raycast.com/changelog/1-99-0) Raycast introduced Local Models through an Integration with Ollama. This allowed for users on the free tier to use Raycast AI without having to pay for a subscription.
+
+## Installing Ollama
+
+Get started by installing [Ollama](https://ollama.com/download). Then download Ollama models directly from the Raycast Settings, in the Local Models section of the AI tab by copying & pasting model names. You can find the list of all available Ollama models [here](https://ollama.com/search).
+
+## Choosing a Model
+
+When deciding which model to run locally, I considered a few key factors:
+
+- **RAM requirements** (important on my M1 MacBook Air with 8GB of memory)
+- **Knowledge cutoff date** (preferably updated to at least 2024)
+- **Best use cases** (e.g., coding help, general Q&A, etc.)
+
+To narrow things down, I asked ChatGPT the following:
+
+> _I have an M1 MacBook Air (8/256) and want to run an Ollama model that won’t slow my machine down too much, and is updated to at least 2024._
+
+This helped guide me toward lightweight, up-to-date models like llama3, phi3, and gemma, which strike a good balance between performance and recent knowledge. Ultimately, I chose mistral:latest. It was updated in 2024, has a 4.1 GB footprint, and runs smoothly on my machine without bogging anything down. It fit perfectly for my needs, which was a fast local model to power Raycast's "Quick AI" feature.
+
+<Cover
+  src="../Screenshot 2025-05-31 at 12.47.35 PM.webp"
+  alt="Raycast AI Ollama Setup"
+/>
+
+## Connecting Raycast to Ollama
+
+Setting it up was surprisingly simple. Once I had Ollama installed and a model (like mistral:latest) downloaded, Raycast automatically detected the local server running in the background. From there, I went into Raycast Settings → AI and selected Local Model (Ollama) as my provider.
+
+Now, when I trigger Quick AI or use an AI command in Raycast, it sends the request directly to the local model instead of Open AI's servers. The result? Near-instant responses, no internet required, and full control over the AI experience, with the peace of mind of knowing everything runs on-device.
+
+## Conclusion
+
+While local models like those run through Ollama aren’t a full replacement for ChatGPT or other cloud-based LLMs, they’re a perfect complement. For quick questions or lightweight tasks, using Raycast with a local model is faster, simpler, and more seamless, exactly the kind of experience Raycast is designed for.
+
+<Published date="2025-05-31" />
