@@ -39,12 +39,12 @@ To narrow things down, I asked ChatGPT the following:
 
 This helped guide me toward lightweight, up-to-date models like llama3, phi3, and gemma, which strike a good balance between performance and recent knowledge. Ultimately, I chose mistral:latest. It was updated in 2024, has a 4.1 GB footprint, and runs smoothly on my machine without bogging anything down. It fit perfectly for my needs, which was a fast local model to power Raycast's "Quick AI" feature.
 
+## Connecting Raycast to Ollama
+
 <Cover
   src="../Screenshot 2025-05-31 at 12.47.35 PM.webp"
   alt="Raycast AI Ollama Setup"
 />
-
-## Connecting Raycast to Ollama
 
 Setting it up was surprisingly simple. Once I had Ollama installed and a model (like mistral:latest) downloaded, Raycast automatically detected the local server running in the background. From there, I went into Raycast Settings → AI and selected Local Model (Ollama) as my provider.
 
