@@ -39,37 +39,49 @@ export const PROJECTS: Project[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: 'Building MenuScores',
+    description: 'How I built MenuScores: from idea to product.',
+    link: '/blog/building-menuscores',
+    uid: 'blog-1',
+  },
+  {
     title: 'Using an Android Phone with a Mac',
     description:
       'Tips, tools, and tricks for making Android and macOS play nicely together.',
     link: '/blog/using-an-android-phone-with-a-mac',
-    uid: 'blog-1',
+    uid: 'blog-2',
   },
   {
     title: 'My Mac Setup',
     description:
       'A look into my development environment, tools I use, and how it all fits together.',
     link: '/blog/my-mac-setup',
-    uid: 'blog-2',
+    uid: 'blog-3',
   },
   {
     title: 'My Raycast Setup',
     description:
       'How I customized Raycast to speed up my workflow and stay focused.',
     link: '/blog/my-raycast-setup',
-    uid: 'blog-3',
+    uid: 'blog-4',
   },
   {
     title: 'Sportssync Developer Blog #2',
     description: 'Major Features and New Commands',
     link: '/blog/sportssync-developer-blog-2',
-    uid: 'blog-4',
+    uid: 'blog-5',
   },
   {
     title: 'Sportssync Developer Blog #1',
     description: 'New Features and Visual Updates',
     link: '/blog/sportssync-developer-blog-1',
-    uid: 'blog-5',
+    uid: 'blog-6',
+  },
+  {
+    title: 'Building Sportssync',
+    description: 'Building an all in one sports extension for Raycast.',
+    link: '/blog/building-sportssync',
+    uid: 'blog-7',
   },
 ]
 
