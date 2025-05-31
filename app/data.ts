@@ -39,15 +39,17 @@ export const PROJECTS: Project[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Sportssync Developer Blog #2',
-    description: 'Major Features and New Commands',
-    link: '/blog/sportssync-developer-blog-2',
+    title: 'Using an Android Phone with a Mac',
+    description:
+      'Tips, tools, and tricks for making Android and macOS play nicely together.',
+    link: '/blog/using-an-android-phone-with-a-mac',
     uid: 'blog-1',
   },
   {
-    title: 'Sportssync Developer Blog #1',
-    description: 'New Features and Visual Updates',
-    link: '/blog/sportssync-developer-blog-1',
+    title: 'My Mac Setup',
+    description:
+      'A look into my development environment, tools I use, and how it all fits together.',
+    link: '/blog/my-mac-setup',
     uid: 'blog-2',
   },
   {
@@ -58,17 +60,15 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-3',
   },
   {
-    title: 'Using an Android Phone with a Mac',
-    description:
-      'Tips, tools, and tricks for making Android and macOS play nicely together.',
-    link: '/blog/using-an-android-phone-with-a-mac',
+    title: 'Sportssync Developer Blog #2',
+    description: 'Major Features and New Commands',
+    link: '/blog/sportssync-developer-blog-2',
     uid: 'blog-4',
   },
   {
-    title: 'My Mac Setup',
-    description:
-      'A look into my development environment, tools I use, and how it all fits together.',
-    link: '/blog/my-mac-setup',
+    title: 'Sportssync Developer Blog #1',
+    description: 'New Features and Visual Updates',
+    link: '/blog/sportssync-developer-blog-1',
     uid: 'blog-5',
   },
 ]

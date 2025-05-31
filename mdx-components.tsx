@@ -13,17 +13,22 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       src: string
       alt: string
       caption: string
-    }) => {
-      return (
-        <figure>
-          <img src={src} alt={alt} className="rounded-xl" />
-          <figcaption className="text-center">{caption}</figcaption>
-        </figure>
-      )
-    },
+    }) => (
+      <figure>
+        <img src={src} alt={alt} className="rounded-xl" />
+        <figcaption className="text-center">{caption}</figcaption>
+      </figure>
+    ),
     code: ({ children, ...props }: ComponentPropsWithoutRef<'code'>) => {
       const codeHTML = highlight(children as string)
       return <code dangerouslySetInnerHTML={{ __html: codeHTML }} {...props} />
     },
+    Published: ({ date }: { date: string }) => (
+      <div className="flex-1">
+        <p className="mt-7 text-right text-zinc-600 dark:text-zinc-400">
+          Published: {date}
+        </p>
+      </div>
+    ),
   }
 }

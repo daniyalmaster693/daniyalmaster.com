@@ -83,8 +83,15 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-3 text-lg font-medium">Blog</h3>
-        <div className="flex flex-col space-y-0">
+        <a
+          className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+          href="/writing"
+        >
+          <h3 className="text-lg font-medium">Selected Posts</h3>
+          <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 transition-all duration-200 group-hover:max-w-full dark:bg-zinc-50"></span>
+        </a>
+
+        <div className="mt-3 flex flex-col space-y-0">
           <AnimatedBackground
             enableHover
             className="h-full w-full rounded-lg bg-zinc-100 dark:bg-zinc-900/80"
@@ -94,7 +101,9 @@ export default function Personal() {
               duration: 0.2,
             }}
           >
-            {BLOG_POSTS.map((post) => (
+            {BLOG_POSTS.filter((post) =>
+              ['blog-1', 'blog-2', 'blog-3', 'blog-4'].includes(post.uid),
+            ).map((post) => (
               <Link
                 key={post.uid}
                 className="-mx-3 rounded-xl px-3 py-3"
