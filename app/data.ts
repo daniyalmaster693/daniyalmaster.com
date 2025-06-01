@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     name: 'Sportssync',
     description: 'View sports scores, news, and standings in Raycast',
     link: 'https://www.raycast.com/daniyal_master/sportssync',
-    image: '/Sportssync-Project-Page.webp',
+    image: '/Raycast 2025-06-01 at 09.11.25.webp',
     id: 'project3',
   },
 ]
