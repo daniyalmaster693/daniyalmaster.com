@@ -90,7 +90,7 @@ export default function Personal() {
           className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
           href="/writing"
         >
-          <h3 className="text-lg font-medium">Selected Posts</h3>
+          <h3 className="text-lg font-medium">Recent Posts</h3>
           <span
             className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 transition-all duration-200 group-hover:max-w-full"
             style={{ backgroundColor: '#A88BFA', height: '2px' }}
