@@ -48,7 +48,7 @@ export default function RootLayout({
         rel="preload"
         as="image"
         fetchPriority="high"
-        href="/SuperCorners.webp"
+        href="/Screenshot 2025-06-01 at 8.57.32 AM.webp"
       />
       <body
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
