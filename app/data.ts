@@ -18,14 +18,14 @@ export const PROJECTS: Project[] = [
     name: 'SuperCorners',
     description: "Make Your Mac's Corners Useful Again",
     link: 'https://github.com/daniyalmaster693/SuperCorners',
-    image: '/SuperCorners.webp',
+    image: '/Screenshot 2025-06-01 at 8.57.32 AM.webp',
     id: 'project1',
   },
   {
     name: 'MenuScores',
     description: 'Live Scores. Right From Your Menubar',
     link: 'https://github.com/daniyalmaster693/MenuScores',
-    image: '/MenuScores.webp',
+    image: '/Screenshot 2025-06-01 at 8.46.11 AM.webp',
     id: 'project2',
   },
   {
