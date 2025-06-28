@@ -18,7 +18,7 @@ export const PROJECTS: Project[] = [
     name: 'SuperCorners',
     description: "Make Your Mac's Corners Useful Again",
     link: 'https://github.com/daniyalmaster693/SuperCorners',
-    image: '/Screenshot 2025-06-01 at 8.57.32 AM.webp',
+    image: '/Screenshot 2025-06-01 at 8.57.32 AM.webp',
     id: 'project1',
   },
   {
