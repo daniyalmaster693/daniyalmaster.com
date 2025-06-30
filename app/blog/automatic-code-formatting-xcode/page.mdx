@@ -1,0 +1,86 @@
+export const metadata = {
+  title: 'Automatic Swift Code Formatting in Xcode',
+  description:
+    'A quick guide to setting up automatic swift code formatting in Xcode.',
+  authors: [{ name: 'Daniyal Master' }],
+  openGraph: {
+    images: ['../Screenshot 2025-06-30 at 4.45.02 PM.webp'],
+  },
+}
+
+<Cover
+  src="../Screenshot 2025-06-30 at 4.45.02 PM.webp"
+  alt="Automatic Swift Code Formatting in Xcode"
+/>
+
+# Automatic Swift Code Formatting in Xcode
+
+A quick guide to setting up automatic swift code formatting in Xcode.
+
+## Introduction
+
+If your a Visual Studio Code user your probably familiar with the [Prettier](https://prettier.io) Code formatting extension. Its an opinionated code formatter that enforces a consistent style across all your code. It's a lifesaver and is essential for my workflow when using VSC. Luckily, in the Swift world, we have [Swift Format](https://github.com/nicklockwood/SwiftFormat), a powerful tool that brings the same consistency to Xcode.
+
+## Requirements
+
+- macOS 10.13 (High Sierra) and above (also compatible with Windows and Linux)
+- A supported Code Editor (Xcode, Visual Studio Code, Sublime Text)
+
+**Note: This guide focuses on using it with Xcode**
+
+## Installation
+
+SwiftFormat can be installed through homebrew or as a Source Editor Extension in Xcode. Installing the command line tool will require you to run the formatter manually, which isn't ideal. Therefore I'd recommend installing the Source Editor Extension.
+
+**Installing through Homebrew**
+
+1. Make sure you first have homebrew installed
+2. Run the **brew install swiftformat** command
+3. Add the application to your applications folder, and launch it.
+4. Head to System Settings > General > Login Items & Extensions > Xcode Source Editor
+5. Enable the Swift Format Extension
+
+<Cover
+  src="../Screenshot 2025-06-30 at 4.48.04 PM.webp"
+  alt="Xcode Source Editor Extensions"
+/>
+
+## Usage
+
+1. Open a .swift file in Xcode.
+2. Highlight any specific lines of code or just leave your cursor anywhere
+3. Head to the Menubar > Editor > SwiftFormat > Format Selection or Format File
+
+<Cover
+  src="../Screenshot 2025-06-30 at 4.55.29 PM.webp"
+  alt="SwiftFormat Menubar Item"
+/>
+
+## Pro Tip!
+
+While this works, its still not the same experience as [Prettier](https://prettier.io) which formats your code on every save. This can still be achieved with SwiftFormat, but requires a few extra steps to enable:
+
+1. Open the Settings App
+2. Click the Keyboard item from the sidebar
+3. Click on Keyboard Shortcuts
+4. Select App Shortcuts from the sidebar
+5. Click the plus button and select the Xcode Application
+6. Set the Menu Title to "Format File"
+7. Choose a keyboard shortcut to trigger this action (**Cmd + S**)
+8. Click Done!
+
+Thats it! Now you can format your swift files every time you save!
+
+**Note: Every time you launch Xcode and save a file, you will be prompted to allow "SwiftFormat access to data from
+other apps.**
+
+<Cover
+  src="../Screenshot 2025-06-30 at 4.41.56 PM.webp"
+  alt="Format File Keyboard Shortcut"
+/>
+
+## Conclusion
+
+SwiftFormat brings a much needed level of consistency and convenience to Swift development in Xcode. Whether you're just looking to clean up your code before committing, or want the same formatting experience as editors like VS Code, SwiftFormat has you covered. With a simple setup and a custom shortcut, you can keep your codebase clean, readable, and standardized — all without lifting a finger every time you save. Happy coding!
+
+<Published date="2025-06-30" />
