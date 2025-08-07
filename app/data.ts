@@ -79,36 +79,22 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-6',
   },
   {
-    title: 'My Mac Setup',
-    description:
-      'A look into my development environment, tools I use, and how it all fits together.',
-    link: '/blog/my-mac-setup',
-    uid: 'blog-7',
-  },
-  {
-    title: 'My Raycast Setup',
-    description:
-      'How I customized Raycast to speed up my workflow and stay focused.',
-    link: '/blog/my-raycast-setup',
-    uid: 'blog-8',
-  },
-  {
     title: 'Sportssync Developer Blog #2',
     description: 'Major Features and New Commands',
     link: '/blog/sportssync-developer-blog-2',
-    uid: 'blog-9',
+    uid: 'blog-7',
   },
   {
     title: 'Sportssync Developer Blog #1',
     description: 'New Features and Visual Updates',
     link: '/blog/sportssync-developer-blog-1',
-    uid: 'blog-10',
+    uid: 'blog-8',
   },
   {
     title: 'Building Sportssync',
     description: 'Building an all in one sports extension for Raycast.',
     link: '/blog/building-sportssync',
-    uid: 'blog-11',
+    uid: 'blog-9',
   },
 ]
 
