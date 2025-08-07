@@ -72,29 +72,22 @@ export const BLOG_POSTS: BlogPost[] = [
     uid: 'blog-5',
   },
   {
-    title: 'Using an Android Phone with a Mac',
-    description:
-      'Tips, tools, and tricks for making Android and macOS play nicely together.',
-    link: '/blog/using-an-android-phone-with-a-mac',
-    uid: 'blog-6',
-  },
-  {
     title: 'Sportssync Developer Blog #2',
     description: 'Major Features and New Commands',
     link: '/blog/sportssync-developer-blog-2',
-    uid: 'blog-7',
+    uid: 'blog-6',
   },
   {
     title: 'Sportssync Developer Blog #1',
     description: 'New Features and Visual Updates',
     link: '/blog/sportssync-developer-blog-1',
-    uid: 'blog-8',
+    uid: 'blog-7',
   },
   {
     title: 'Building Sportssync',
     description: 'Building an all in one sports extension for Raycast.',
     link: '/blog/building-sportssync',
-    uid: 'blog-9',
+    uid: 'blog-8',
   },
 ]
 
