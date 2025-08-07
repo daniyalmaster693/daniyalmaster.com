@@ -16,21 +16,21 @@ type BlogPost = {
 export const PROJECTS: Project[] = [
   {
     name: 'SuperCorners',
-    description: "Make Your Mac's Corners Useful Again",
+    description: "Supercharge your Mac's Corners",
     link: 'https://github.com/daniyalmaster693/SuperCorners',
     image: '/SuperCorners-1.webp',
     id: 'project1',
   },
   {
     name: 'MenuScores',
-    description: 'Live Scores. Right From Your Notch',
+    description: 'Live Scores - Right From Your Notch',
     link: 'https://github.com/daniyalmaster693/MenuScores',
     image: '/MenuScores-1.webp',
     id: 'project2',
   },
   {
     name: 'Sportssync',
-    description: 'View sports scores, news, and standings in Raycast',
+    description: 'An All-in-One Sports Extension for Raycast',
     link: 'https://www.raycast.com/daniyal_master/sportssync',
     image: '/Sportssync-1.webp',
     id: 'project3',
