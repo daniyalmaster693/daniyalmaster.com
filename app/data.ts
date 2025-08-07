@@ -17,14 +17,14 @@ export const PROJECTS: Project[] = [
   {
     name: 'SuperCorners',
     description: "Supercharge your Mac's Corners",
-    link: 'https://github.com/daniyalmaster693/SuperCorners',
+    link: 'https://supercorners.vercel.app',
     image: '/SuperCorners-1.webp',
     id: 'project1',
   },
   {
     name: 'MenuScores',
     description: 'Live Scores - Right From Your Notch',
-    link: 'https://github.com/daniyalmaster693/MenuScores',
+    link: 'https://menuscores.vercel.app',
     image: '/MenuScores-1.webp',
     id: 'project2',
   },
