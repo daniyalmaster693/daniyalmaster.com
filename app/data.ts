@@ -39,43 +39,49 @@ export const PROJECTS: Project[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    title: "Sports Scores in your Mac's Notch",
+    description: 'Bringing a popular iOS Dynamic Island feature to macOS',
+    link: '/blog/sports-scores-in-your-macs-notch',
+    uid: 'blog-1',
+  },
+  {
     title: 'Creating beautiful toast messages for your Mac App',
     description: 'Create subtle and beautiful notifications for your Mac app.',
     link: '/blog/creating-beautiful-toast-messages',
-    uid: 'blog-1',
+    uid: 'blog-2',
   },
   {
     title: 'Automatic Swift Code Formatting in Xcode',
     description:
       'A quick guide to setting up automatic swift code formatting in Xcode.',
     link: '/blog/automatic-code-formatting-xcode',
-    uid: 'blog-2',
+    uid: 'blog-3',
   },
   {
     title: 'Keeping Apple Notes on Top',
     description:
       'An easy method to float an apple notes window on top of others.',
     link: '/blog/keeping-apple-notes-on-top',
-    uid: 'blog-3',
+    uid: 'blog-4',
   },
   {
     title: 'Running AI Locally with Raycast & Ollama',
     description:
       'How I set up Raycast to use local LLMs through Ollama for fast, private AI on my Mac.',
     link: '/blog/running-ai-locally-with-raycast-and-ollama',
-    uid: 'blog-4',
+    uid: 'blog-5',
   },
   {
     title: 'Building MenuScores',
     description: 'How I built MenuScores: from idea to product.',
     link: '/blog/building-menuscores',
-    uid: 'blog-5',
+    uid: 'blog-6',
   },
   {
     title: 'Sportssync Developer Blog #2',
     description: 'Major Features and New Commands',
     link: '/blog/sportssync-developer-blog-2',
-    uid: 'blog-6',
+    uid: 'blog-7',
   },
   {
     title: 'Sportssync Developer Blog #1',
@@ -87,7 +93,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: 'Building Sportssync',
     description: 'Building an all in one sports extension for Raycast.',
     link: '/blog/building-sportssync',
-    uid: 'blog-8',
+    uid: 'blog-9',
   },
 ]
 
