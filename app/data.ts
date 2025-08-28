@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'MacToastKit',
     description: 'A minimal toast library for macOS',
-    link: 'https://github.com/daniyalmaster693/MacToastKit',
+    link: 'https://swiftpackageindex.com/daniyalmaster693/MacToastKit',
     image: '/MacToastKit-1.webp',
     id: 'project3',
   },
