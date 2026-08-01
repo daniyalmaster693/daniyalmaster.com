@@ -41,7 +41,7 @@ export default function Personal() {
           <p className="text-zinc-600 dark:text-zinc-400">
             I'm a high school student and software engineer primarily working
             within the Swift ecosystem. Building slick software—without the
-            bugs. Hopefully. Currently developing SuperCorners.
+            bugs. Hopefully. Currently developing SuperCorners and MenuScores.
           </p>
         </div>
       </motion.section>
