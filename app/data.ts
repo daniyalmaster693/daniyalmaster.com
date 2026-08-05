@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'MenuScores',
-    description: 'Live Scores - Right From Your Notch',
+    description: 'Live Scores, Designed for Mac',
     link: 'https://menuscores.vercel.app',
     image: '/MenuScores-1.webp',
     id: 'project2',
