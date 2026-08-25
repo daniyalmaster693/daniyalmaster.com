@@ -39,7 +39,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I'm a high school student and software engineer primarily working
+            I'm a high school student and developer primarily working on the
             within the Swift ecosystem. Building slick software—without the
             bugs. Hopefully. Currently developing SuperCorners and MenuScores.
           </p>
