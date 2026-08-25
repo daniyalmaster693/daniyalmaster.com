@@ -17,23 +17,16 @@ export const PROJECTS: Project[] = [
   {
     name: 'SuperCorners',
     description: "Supercharge your Mac's Corners",
-    link: 'https://supercorners.vercel.app',
+    link: 'https://github.com/daniyalmaster693/SuperCorners',
     image: '/SuperCorners-1.webp',
     id: 'project1',
   },
   {
     name: 'MenuScores',
     description: 'Live Scores, Designed for Mac',
-    link: 'https://menuscores.vercel.app',
+    link: 'https://github.com/daniyalmaster693/MenuScores',
     image: '/MenuScores-1.webp',
     id: 'project2',
-  },
-  {
-    name: 'MacToastKit',
-    description: 'A minimal toast library for macOS',
-    link: 'https://swiftpackageindex.com/daniyalmaster693/MacToastKit',
-    image: '/MacToastKit-1.webp',
-    id: 'project3',
   },
   {
     name: 'Sportssync',
@@ -41,6 +34,13 @@ export const PROJECTS: Project[] = [
     link: 'https://www.raycast.com/daniyal_master/sportssync',
     image: '/Sportssync-1.webp',
     id: 'project4',
+  },
+  {
+    name: 'MacToastKit',
+    description: 'A minimal toast library for macOS',
+    link: 'https://swiftpackageindex.com/daniyalmaster693/MacToastKit',
+    image: '/MacToastKit-1.webp',
+    id: 'project3',
   },
 ]
 
