@@ -1,5 +1,5 @@
 'use client'
-import { TextEffect } from '@/components/ui/text-effect'
+import { TextLoop } from '@/components/ui/text-loop'
 import Link from 'next/link'
 
 export function Header() {
@@ -14,15 +14,10 @@ export function Header() {
           />
           <div>
             Daniyal Master
-            <TextEffect
-              as="p"
-              preset="fade"
-              per="char"
-              className="text-zinc-600 dark:text-zinc-500"
-              delay={0.5}
-            >
-              Developer
-            </TextEffect>
+            <TextLoop className="text-zinc-600 dark:text-zinc-500">
+              <span>Student</span>
+              <span>Developer</span>
+            </TextLoop>
           </div>
         </div>
       </Link>
