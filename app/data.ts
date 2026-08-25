@@ -33,14 +33,14 @@ export const PROJECTS: Project[] = [
     description: 'An All-in-One Sports Extension for Raycast',
     link: 'https://www.raycast.com/daniyal_master/sportssync',
     image: '/Sportssync-1.webp',
-    id: 'project4',
+    id: 'project3',
   },
   {
     name: 'MacToastKit',
     description: 'A minimal toast library for macOS',
-    link: 'https://swiftpackageindex.com/daniyalmaster693/MacToastKit',
+    link: 'https://github.com/daniyalmaster693/MacToastKit',
     image: '/MacToastKit-1.webp',
-    id: 'project3',
+    id: 'project4',
   },
 ]
 
