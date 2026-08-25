@@ -20,11 +20,14 @@ export const metadata: Metadata = {
     default: 'Daniyal Master',
     template: '%s',
   },
+  description:
+    "Daniyal Master's Portfolio. Building slick software—without the bugs. Hopefully.",
   icons: {
     icon: '/favicon.webp',
   },
-  description:
-    "Daniyal Master's Portfolio. Building slick software—without the bugs. Hopefully.",
+  openGraph: {
+    images: ['/website-preview.webp'],
+  },
 }
 
 const geist = Geist({
