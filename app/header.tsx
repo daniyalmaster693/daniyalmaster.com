@@ -12,7 +12,7 @@ export function Header() {
             alt="Daniyal"
             className="mr-5 h-14 w-14 rounded-full object-cover"
           />
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col">
             Daniyal Master
             <TextLoop className="text-zinc-600 dark:text-zinc-500">
               <span>Student</span>
